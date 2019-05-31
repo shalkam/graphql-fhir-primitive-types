@@ -1,0 +1,15 @@
+{
+  "name": "graphql-fhir-primitive-types",
+  "version": "1.0.0",
+  "description": "FHIR primitive types for GraphQL",
+  "main": "index.js",
+  "repository": "git@github.com:shalkam/graphql-fhir-primitive-types.git",
+  "author": "Mostafa Sholkamy <shalkamm@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "graphql": ">=14.2.1"
+  },
+  "dependencies": {
+    "graphql-import": "^0.7.1"
+  }
+}
