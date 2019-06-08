@@ -1,4 +1,4 @@
-const validatedType = require('./validate.js')
+const validatedType = require('../helpers/validatedType')
 
 module.exports = validatedType({
   name: 'code',

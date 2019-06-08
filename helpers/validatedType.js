@@ -2,8 +2,8 @@ const { GraphQLScalarType } = require('graphql')
 const { GraphQLError } = require('graphql/error')
 const { Kind } = require('graphql/language')
 
-const validatedType = params =>
-  new GraphQLScalarType({
+module.exports = ({ name, type, min, max, regex }) => {
+  return new GraphQLScalarType({
     name: params.name,
     serialize: value => {
       return value
@@ -40,5 +40,4 @@ const validatedType = params =>
       return ast.value
     }
   })
-
-module.exports = validatedType
+}
