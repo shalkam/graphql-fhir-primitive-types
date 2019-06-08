@@ -1,4 +1,5 @@
 scalar id
 scalar date
 scalar dateTime
+scalar uri
 scalar code
