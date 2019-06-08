@@ -1,6 +1,6 @@
-import { GraphQLScalarType } from 'graphql'
+const { GraphQLScalarType } = require('graphql')
 
-export default new GraphQLScalarType({
+module.exports = new GraphQLScalarType({
   name: 'dateTime',
   description:
     'A date, date-time or partial date (e.g. just year or year + month) as used in human communication. If hours and minutes are specified, a time zone SHALL be populated. Seconds must be provided due to schema type constraints but may be zero-filled and may be ignored. Dates SHALL be valid dates. The time "24:00" is not allowed',

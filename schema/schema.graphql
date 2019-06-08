@@ -1,2 +1,4 @@
+scalar id
 scalar date
+scalar dateTime
 scalar code
