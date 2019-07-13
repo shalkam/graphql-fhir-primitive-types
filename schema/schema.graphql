@@ -3,3 +3,4 @@ scalar date
 scalar dateTime
 scalar uri
 scalar code
+scalar markdown
